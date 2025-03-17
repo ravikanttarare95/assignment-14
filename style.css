@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  padding: 20px;
+  background: rgb(1, 75, 130);
+  background: linear-gradient(
+    10deg,
+    rgba(1, 75, 130, 1) 0%,
+    rgba(62, 0, 87, 1) 100%
+  );
+  text-align: center;
+  color: #fff;
+  font-family: "Rock Salt", cursive;
+  text-shadow: 0 3px 3px #e23b3b;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+h2 {
+  color: #005eff;
+  margin: 30px 0;
+}
+h3 {
+  color: rgb(115, 38, 115);
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.container {
+  background: rgb(161, 227, 249);
+  background: linear-gradient(
+    120deg,
+    rgba(161, 227, 249, 0.5046393557422969) 20%,
+    rgba(232, 249, 253, 0.8519782913165266) 20%
+  );
+}
+.inside-container {
+  padding: 20px;
+  width: 1100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  box-shadow: -5px 0 10px 0 #666, 5px 0 10px 0 rgba(0, 0, 0, 0.5);
+  border: 2px solid #ccc;
+}
+.b-news {
+  display: inline-block;
+  vertical-align: top;
+}
+.b-news p {
+  display: inline-block;
+  vertical-align: top;
+}
+.announcement {
+  margin: 0;
+  padding: 0;
+  color: hsl(234, 0%, 52%);
+}
+section {
+  margin: 10px;
+  border: 2px solid #ccc;
+}
+section img {
+  height: 100%;
+}
+.score-card-container {
+  display: block;
+  padding: 0 100px;
+}
+.score-container {
+  display: inline-block;
+  border: 2px solid #ccc;
+  width: 350px;
+  padding: 10px;
+  margin-left: 50px;
+}
+.team-name {
+  display: inline;
+  margin-right: 40px;
+}
+.team-name img {
+  vertical-align: middle;
+}
+.score {
+  display: inline;
+}
+.won {
+  color: #005eff;
+}
+.time {
+  color: #e2943b;
+}
+.poll-container {
+  background-color: #e6f7ff;
+  padding-left: 430px;
+  padding-right: 430px;
+  text-align: start;
+}
+
+.poll-container button {
+  display: block;
+  margin: 16px;
+  padding: 3px 12px;
+  border: 1px solid #005eff;
+  color: #005eff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.poll-container button:hover {
+  transition: 0.3s;
+  background-color: #005eff;
+  color: #fff;
+}
+.poll-ans {
+  display: block;
+}

@@ -19,18 +19,18 @@ h1 {
   z-index: 1000;
 }
 .josefin-sans-300 {
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-  }
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
 .josefin-sans-700 {
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 h2 {
   font-family: "Exo 2", sans-serif;
   color: #005eff;
@@ -55,7 +55,7 @@ h3 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  background-color: #fff;
+  background-color: white;
   box-shadow: -5px 0 10px 0 #666, 5px 0 10px 0 rgba(0, 0, 0, 0.5);
   border: 2px solid #ccc;
 }
@@ -67,8 +67,8 @@ h3 {
   display: inline-block;
   vertical-align: top;
 }
-.news-content{
-    font-family: "Simonetta", serif
+.news-content {
+  font-family: "Simonetta", serif;
 }
 .announcement {
   margin: 0;
@@ -114,7 +114,8 @@ section img {
   background-color: #e6f7ff;
   padding-left: 430px;
   padding-right: 430px;
-  text-align: start;  font-family: "Inria Sans", sans-serif;
+  text-align: start;
+  font-family: "Inria Sans", sans-serif;
 }
 
 .poll-container button {
@@ -134,3 +135,19 @@ section img {
 .poll-ans {
   display: block;
 }
+article {
+  text-align: center;
+  font-family: "Averia Sans Libre", sans-serif;
+  margin: 50px 10px;
+  background-color: #e6ffff;
+}
+article img {
+  display: block;
+  height: 400px;
+  margin: 20px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+article p {
+  text-align: justify;
+  margin: 10px;}
